@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="demoA" name="demoA" class="com.kingfish.springbootdemo.replace.DemoA" factory-bean="demoC" factory-method="hello">
+    </bean>
+    <bean id="demoB" name="demoB" class="com.kingfish.springbootdemo.replace.DemoB">
+        <property name="demoA" value="#{demoA}"/>
+    </bean>
+    <bean id="demoC" name="demoC" class="com.kingfish.springbootdemo.replace.DemoC"></bean>
+    <bean id="demoMethodReplacer" name="demoMethodReplacer" class="com.kingfish.springbootdemo.replace.DemoMethodReplacer"></bean>
+</beans>

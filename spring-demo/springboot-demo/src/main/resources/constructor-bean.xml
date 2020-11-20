@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="constructorDemoA" class="com.kingfish.springbootdemo.constructor.ConstructorDemoA">
+        <constructor-arg index="0" ref="constructorDemoB"></constructor-arg>
+        <constructor-arg index="1" value="666" ></constructor-arg>
+        <constructor-arg value="666" ></constructor-arg>
+
+        <property name="constructorDemoB" ref="constructorDemoB"></property>
+    </bean>
+    <bean id="constructorDemoB" class="com.kingfish.springbootdemo.constructor.ConstructorDemoB"></bean>
+</beans>

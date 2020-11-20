@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/kafka-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-base-mvc-demo" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/reactor-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/bean-init-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/flow-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-server-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-client-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/aop-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-jdbc-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-base-mvc-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-provider-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-consumer-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-common-demo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

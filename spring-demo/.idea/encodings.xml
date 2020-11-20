@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/aop-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apollo-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bean-init-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-common-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-consumer-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-provider-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flow-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka-client-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka-server-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka-server-demo/src/main/resources/application.yml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/other-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-base-mvc-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-jdbc-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-demo" charset="UTF-8" />
+  </component>
+</project>

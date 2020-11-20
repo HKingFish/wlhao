@@ -1,0 +1,32 @@
+GET http://localhost:8080/aop/verifyHello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-06-17T093826.500.json
+
+###
+
+GET http://localhost:8080/aop/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-06-17T093816.200.txt
+
+###
+
+GET http://localhost:8080/aop
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-06-17T093805.404.json
+
+###
+
+GET http://localhost:8080/aop
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-06-17T093753.404.json
+
+###
+

@@ -1,0 +1,6 @@
+server:
+  port: 8080
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*Mapper.xml
+  type-aliases-package: com.kingfish.springjdbcdemo.pojo
+  config-location: classpath:mybatis/mybatis-config.xml

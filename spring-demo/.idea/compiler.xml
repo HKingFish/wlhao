@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-jdbc-demo" />
+        <module name="kafka-client-demo" />
+        <module name="springboot-demo" />
+        <module name="spring-base-mvc-demo" />
+        <module name="dubbo-provider-demo" />
+        <module name="reactor-demo" />
+        <module name="flow-demo" />
+        <module name="dubbo-common-demo" />
+        <module name="aop-demo" />
+        <module name="dubbo-consumer-demo" />
+        <module name="bean-init-demo" />
+        <module name="kafka-server-demo" />
+        <module name="spring-mvc-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aop-demo" target="1.8" />
+      <module name="apollo-demo" target="1.8" />
+      <module name="bean-init-demo" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="dubbo-common-demo" target="1.8" />
+      <module name="dubbo-consumer" target="1.8" />
+      <module name="dubbo-consumer-demo" target="1.8" />
+      <module name="dubbo-demo" target="1.8" />
+      <module name="dubbo-provider" target="1.8" />
+      <module name="dubbo-provider-demo" target="1.8" />
+      <module name="flow-demo" target="1.8" />
+      <module name="kafka-client-demo" target="1.8" />
+      <module name="kafka-demo" target="1.7" />
+      <module name="kafka-server-demo" target="1.8" />
+      <module name="reactor-demo" target="1.5" />
+      <module name="spring-base-mvc-demo" target="1.8" />
+      <module name="spring-jdbc-demo" target="1.8" />
+      <module name="spring-mvc-demo" target="1.8" />
+      <module name="springboot-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aop-demo" options="-parameters" />
+      <module name="apollo-demo" options="-parameters" />
+      <module name="bean-init-demo" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="dubbo-common-demo" options="-parameters" />
+      <module name="dubbo-consumer" options="-parameters" />
+      <module name="dubbo-consumer-demo" options="-parameters" />
+      <module name="dubbo-demo" options="-parameters" />
+      <module name="dubbo-provider" options="-parameters" />
+      <module name="dubbo-provider-demo" options="-parameters" />
+      <module name="flow-demo" options="-parameters" />
+      <module name="kafka-client-demo" options="-parameters" />
+      <module name="kafka-demo" options="" />
+      <module name="kafka-server-demo" options="-parameters" />
+      <module name="spring-base-mvc-demo" options="" />
+      <module name="spring-jdbc-demo" options="-parameters" />
+      <module name="spring-mvc-demo" options="-parameters" />
+      <module name="springboot-demo" options="-parameters" />
+    </option>
+  </component>
+</project>

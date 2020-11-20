@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kingfish.springjdbcdemo.dao.UserMapper">
+    <insert id="insertUser" parameterType="com.kingfish.springjdbcdemo.pojo.User">
+        insert into user
+        <trim prefix="("  suffix=")"  suffixOverrides=",">
+            <if test="userId != null">
+                user_id,
+            </if>
+            <if test="username != null">
+                username,
+            </if>
+            <if test="password != null">
+                password,
+            </if>
+        </trim>
+        values
+        <trim prefix="("  suffix=")" suffixOverrides=",">
+            <if test="userId != null">
+                #{userId},
+            </if>
+            <if test="username != null">
+                #{username},
+            </if>
+            <if test="password != null">
+                #{password},
+            </if>
+        </trim>
+    </insert>
+    <select id="findAll" resultType="com.kingfish.springjdbcdemo.pojo.User">
+        select * from user;
+    </select>
+
+    <update id="updateUser" parameterType="com.kingfish.springjdbcdemo.pojo.User">
+        update user
+        <trim prefix="set" suffixOverrides=",">
+            <if test="userId != null">
+                user_id = #{userId},
+            </if>
+            <if test="username != null">
+                username = #{username},
+            </if>
+            <if test="password != null">
+                password = #{password},
+            </if>
+        </trim>
+        <where>
+            id = #{id}
+        </where>
+    </update>
+</mapper>
